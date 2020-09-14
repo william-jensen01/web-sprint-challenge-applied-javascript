@@ -27,14 +27,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+DOM stands for Document Object Model. Allows us to treat the html documents as a tree like structure.
 
 2. What is an event?
+An event is when a user or the browser interacts with our document.
 
 3. What is an event listener?
+An event listener listens for when an event takes place. It has two parts to it. The event to listen for and the callback to fire when said event is triggered. An example would be __.addEventListener('click', () => {console.log('You just clicked __!')}).
 
 4. Why would we convert a NodeList into an Array?
+We would convert them so array methods like .map and .forEach can be applied.
 
 5. What is a component?
+A component is a reusable piece of code and could be made with HTML, CSS, or JavaScript
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
